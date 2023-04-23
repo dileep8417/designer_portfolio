@@ -1,3 +1,5 @@
+const imgResourcePath = '/designer_portfolio/assets/images/projects/';
+
 const workContributions = [
     {
         company: 'Internshala',
@@ -15,7 +17,7 @@ const workContributions = [
                 value: '400+'
             }
         ],
-        workSampleImg: '/assets/images/projects/Internshala.png',
+        workSampleImg: imgResourcePath + 'Internshala.png',
         category: 'Product Design',
         cardTheme: '#CCDCED'
     },
@@ -35,7 +37,7 @@ const workContributions = [
                 value: '40%'
             }
         ],
-        workSampleImg: '/assets/images/projects/SlogDigital.png',
+        workSampleImg: imgResourcePath + 'SlogDigital.png',
         category: 'Product Design',
         cardTheme: '#DEF6E7'
     },
@@ -46,7 +48,7 @@ const workContributions = [
             info: 'Find Nearby Internships on the Map'
         },
         achievements: [],
-        workSampleImg: '/assets/images/projects/Mapview.png',
+        workSampleImg: imgResourcePath + 'Mapview.png',
         category: 'Concept Design',
         cardTheme: '#FFFFFF'
     },
@@ -57,7 +59,7 @@ const workContributions = [
             info: 'Trustworthy Maids at Your Fingertips'
         },
         achievements: [],
-        workSampleImg: '/assets/images/projects/Simplylife.png',
+        workSampleImg: imgResourcePath + 'Simplylife.png',
         category: 'Concept Design',
         cardTheme: '#F9EB7F'
     },
@@ -68,7 +70,7 @@ const workContributions = [
             info: 'Delicious Snacks at Your Fingertips'
         },
         achievements: [],
-        workSampleImg: '/assets/images/projects/Snacky.png',
+        workSampleImg: imgResourcePath + 'Snacky.png',
         category: 'Concept Design',
         cardTheme: '#E84C4F'
     },

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Satoshi';
-  src: url('/assets/fonts/Satoshi/Satoshi-Regular.otf'), url('/assets/fonts/Satoshi/Satoshi-Medium.otf'), url('/assets/fonts/Satoshi/Satoshi-Bold.otf');
+  src: url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Regular.otf'), url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Medium.otf'), url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Bold.otf');
   font-weight: normal, medium, bold;
 }
 
