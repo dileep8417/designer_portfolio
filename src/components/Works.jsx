@@ -1,6 +1,7 @@
 import workContributions from "../utils/workContributionsData";
 import Project from "./Project";
 import SectionHeading from "./SectionHeading";
+import "../styles/Projects.css";
 
 const Works = () => {
     return (
