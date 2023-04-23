@@ -5,6 +5,7 @@
 nav {
   position: sticky;
   top: -64px;
+  background-color: #000000;
 }
 .nav_item {
   cursor: pointer;
@@ -16,7 +17,6 @@ nav {
   gap: 64px;
   font-size: 16px;
   line-height: 22px;
-  background-color: #1E1E1E;
   z-index: 10;
 }
 .nav_menu a::after {
@@ -48,7 +48,8 @@ nav {
 }
 @media (max-width: 767px) {
   nav {
-    top: 24px;
+    top: 0;
+    padding: 24px 24px 0;
     z-index: 100;
   }
   .nav_menu {
@@ -74,7 +75,7 @@ nav {
   }
   .nav_btn {
     display: flex;
-    margin: 24px 48px 0 auto;
+    margin: 0 0 0 auto;
     cursor: pointer;
     font-size: 24px;
   }
@@ -348,9 +349,7 @@ nav {
   max-width: 600px;
 }
 #email_btn {
-  width: 200px;
-  height: 62px;
-  padding: 20px 24px;
+  padding: 20px 54px;
   background: #FAFAFA;
   font-weight: 700;
   font-size: 16px;
@@ -442,9 +441,6 @@ nav {
     max-width: 616px;
     margin: 32px 0 80px;
   }
-  .work_container {
-    justify-content: flex-start;
-  }
   #strategies {
     margin: 188px 0 80px;
   }
@@ -478,8 +474,6 @@ nav {
     width: 139px;
   }
   .project_card {
-    max-width: 328px;
-    height: 373px;
     padding: 32px 16px 0;
   }
   .hire_me_btn {
@@ -508,9 +502,37 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    row-gap: 32px;
+  }
+  .number_card .value {
+    font-size: 40px;
+    line-height: 54px;
+    margin: 0 0 8px;
   }
   .partner_img {
     width: 200px;
     height: 42px
+  }
+  .section_heading .heading, .contact_heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .section_title::before {
+    width: 40px;
+  }
+  #email_btn {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 12px 24px;
+  }
+}
+@media (max-width: 575px) {
+  .work_container {
+    grid-template-columns: auto;
+  }
+  .project_card {
+    max-width: 328px;
+    height: 373px;
+    padding: 32px 16px 0;
   }
 }

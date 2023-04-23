@@ -9,7 +9,7 @@ const HeroSection = () => {
             <div className="work_info">Product designer based in India Currently Designing at <span className="company_name">{companyName}</span></div>
             <div className="button_section">
                 <Link className="hire_me_btn" type="button" to="contact" spy={true} smooth={true} offset={-110} duration={1000}>Hire Me</Link>
-                <Link className="learn_more_btn" type="button" to="partners" spy={true} smooth={true} offset={-150} duration={1000}>Learn More <AiOutlineArrowDown /></Link>
+                <Link className="learn_more_btn" type="button" to="partners" spy={true} smooth={true} offset={-80} duration={1000}>Learn More <AiOutlineArrowDown /></Link>
             </div>
         </div>
     );

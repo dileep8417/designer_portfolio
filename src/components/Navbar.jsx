@@ -9,7 +9,7 @@ const Navbar = () => {
     const externalNav = [
         {
             name: 'Resume',
-            link: '',
+            link: 'https://drive.google.com/file/d/18-XhqjRxup3NQMsTX8sgy2n2fQRIe9uT/view',
         }
     ];
     return (

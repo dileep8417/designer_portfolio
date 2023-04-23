@@ -13,7 +13,7 @@ const socialMediaLinks = [
     },
     {
         name: 'Instagram',
-        link: '',
+        link: 'https://www.instagram.com/product.gopichand',
     }
 ];
 
