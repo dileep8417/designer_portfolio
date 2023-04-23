@@ -482,6 +482,9 @@ nav {
   #partners {
     margin: 60px 0 292px;
   }
+  .partner_img.internshala {
+    top: -8px;
+}
   .card_header .company, .card_header .category {
     font-size: 14px;
     line-height: 19px;

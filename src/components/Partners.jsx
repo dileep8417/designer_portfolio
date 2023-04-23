@@ -5,8 +5,8 @@ const Partners = () => {
     return (
         <div id="partners">
             <Marquee gradient={false} speed={60}>
-                {companyLogos.map((logo, index) => {
-                    <img key={index} className='partner_img' src={logo} alt="logo" />
+                {companyLogos.logos.map((logo, index) => {
+                    return <img key={index} className={`partner_img ${logo === 'company_3.png' ? 'internshala' : ''}`} src={companyLogos.basePath + logo} alt="logo" />
                 })}
             </Marquee>
         </div>
