@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -20,7 +19,6 @@
     "react-scroll": "^1.8.9"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0-beta.0",
@@ -29,6 +27,5 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "vite": "^4.3.0"
-  },
-  "homepage": "https://dileep8417.github.io/designer_portfolio/"
+  }
 }
