@@ -1,3 +1,5 @@
+
+
 const Project = ({ project }) => {
     return (
         <div className="project_card" style={{backgroundColor: project.cardTheme}}>
@@ -13,15 +15,19 @@ const Project = ({ project }) => {
             <div className="achievements">
                 {project.achievements.map((achievement, index) => {
                     return (
+                        
                         <div key={index} className="achievement">
+                           
                             <div className="value">{achievement.value}</div>
                             <div className="title">{achievement.title}</div>
+
                         </div>
+                        
                     );
                 })}
             </div>
             )}
-            <img src={project.workSampleImg} alt="" />
+                 <a target='_blank' href={project.projectLink}><img src={project.workSampleImg} alt=""/></a>
         </div>
     )
 }

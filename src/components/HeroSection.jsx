@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <div id="home">
             <div className="greet_msg">Hi! 👋 I’m  {personName}</div>
-            <div className="work_info">Product designer based in India Currently Designing at <span className="company_name">{companyName}</span></div>
+            <div className="work_info">Crafting meaningful digital experiences that empower people and business growth</div>
            
             <div className="button_section">
                 <Link className="hire_me_btn" type="button" to="contact" spy={true} smooth={true} offset={-110} duration={1000}>Hire Me</Link>

@@ -3,6 +3,7 @@ const imgResourcePath = '/designer_portfolio/assets/images/projects/';
 const workContributions = [
     {
         company: 'Internshala',
+        projectLink: 'https://forms.gle/vYzNSc2LfrYTMyJk6',
         contribution: {
             title: 'Personalized Payment Plans',
             info: 'Subscription That Fits Your Recruitment'
@@ -23,6 +24,7 @@ const workContributions = [
     },
     {
         company: 'Slog Digital',
+        projectLink: 'https://www.behance.net/gallery/164615251/Landing-page-website-redesign-(case-study)',
         contribution: {
             title: 'Revitalize Your Business',
             info: 'Revamping Website for Brand Awareness'
@@ -43,6 +45,7 @@ const workContributions = [
     },
     {
         company: 'Internshala',
+        projectLink: 'https://www.behance.net/gallery/163271761/Search-Internships-In-Map-View-(Case-Study-Ast)',
         contribution: {
             title: 'Discover Your Next Opportunity',
             info: 'Find Nearby Internships on the Map'
@@ -54,6 +57,7 @@ const workContributions = [
     },
     {
         company: 'Simply Life',
+        projectLink: 'https://www.behance.net/gallery/153266287/Maid-Hiring-Platform-(case-study)',
         contribution: {
             title: 'Reliable Maid Services',
             info: 'Trustworthy Maids at Your Fingertips'
@@ -64,7 +68,8 @@ const workContributions = [
         cardTheme: '#F9EB7F'
     },
     {
-        company: 'Internshala',
+        company: 'Snacky',
+        projectLink: 'https://www.behance.net/gallery/146811057/Snack-Ordering-App-for-Movie-Theatre-(casestudy)',
         contribution: {
             title: 'Never Miss a Moment',
             info: 'Delicious Snacks at Your Fingertips'
@@ -72,7 +77,19 @@ const workContributions = [
         achievements: [],
         workSampleImg: imgResourcePath + 'Snacky.png',
         category: 'Concept Design',
-        cardTheme: '#E84C4F'
+        cardTheme: '#F0F3BD'
+    },
+    {
+        company: 'Lalassa',
+        projectLink: '',
+        contribution: {
+            title: 'Redefining user experience for the',
+            info: 'Indian petcare industry with Lalassa'
+        },
+        achievements: [],
+        workSampleImg: imgResourcePath + 'Lalassa.png',
+        category: 'Coming Soon...',
+        cardTheme: '#E5ECE9'
     },
 ];
 

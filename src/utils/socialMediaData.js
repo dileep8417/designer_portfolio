@@ -14,7 +14,7 @@ const socialMediaLinks = [
     {
         name: 'Instagram',
         link: 'https://www.instagram.com/product.gopichand',
-    }
+    },
 ];
 
 export default socialMediaLinks;

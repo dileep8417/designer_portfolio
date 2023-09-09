@@ -7,6 +7,8 @@ import './App.css';
 import ServicesOffer from './components/ServicesOffer';
 import AdditionalDetails from './components/AdditionalDetails';
 import Contact from './components/Contact';
+import Metrics from './components/Metrics';
+import Brands from './components/Brands';
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
       <div id="content">
         <Works />
         <div id="about">
+          <Metrics/>
           <WorkStrategy />
+          <Brands/>
           <ServicesOffer />
           <AdditionalDetails />
         </div>

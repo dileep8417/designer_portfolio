@@ -10,6 +10,7 @@
     padding: 40px 40px 0;
     box-sizing: border-box;
     display: inherit;
+    overflow: hidden;
   }
   .project_card:nth-last-child(1) {
     margin-right: auto;
@@ -19,6 +20,12 @@
     justify-content: space-between;
     margin: 0 0 24px;
     align-items: center;
+  }
+
+  .project_card a{
+    margin: 24px 0 0;
+    display: inherit;
+    align-self: flex-end;
   }
   
   .card_header .company {
@@ -59,9 +66,13 @@
     line-height: 22px;
     margin: 8px 0 0;
   }
-  .project_card img {
+  .project_card a img{
     width: 100%;
-    margin: 24px 0 0;
+  }
+
+  .project_card:nth-last-child(1) a img{
+    margin-left: 92px ;
+   
   }
 
   @media (max-width: 1255px) {

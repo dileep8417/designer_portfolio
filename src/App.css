@@ -11,9 +11,11 @@ nav {
   cursor: pointer;
 }
 .nav_menu {
-  padding: 74px 0 16px;
+  padding: 78px 0 20px;
   display: flex;
-  justify-content: center;
+  max-width: 1255px;
+  margin: auto;
+  justify-content: start;
   gap: 64px;
   font-size: 16px;
   line-height: 22px;
@@ -83,21 +85,23 @@ nav {
 }
 
 #home {
-  margin: 226px 0 0;
+  max-width: 1232px;
+  margin: 126px auto;
 }
 
 #home .greet_msg {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  text-align: center;
+  text-align: left;
 }
 #home .work_info {
-  font-weight: bold;
+  font-family: 'Satoshi';
+  font-weight: 900;
   font-size: 64px;
   line-height: 86px;
-  text-align: center;
-  margin: 16px auto 48px;
+  text-align: left;
+  margin-top: 24px;
   max-width: 1057px;
 }
 .work_info .company_name {
@@ -105,9 +109,6 @@ nav {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-}
-.button_section {
-  text-align: center;
 }
 .hire_me_btn, .learn_more_btn {
   width: 265px;
@@ -124,8 +125,12 @@ nav {
 .hire_me_btn {
   background: #FFFFFF;
   color: #0A0A0A;
-  margin: 0 24px 0;
+  margin-right:24px;
+  text-align: center;
   padding: 20px 54px;
+}
+.button_section{
+  margin-top: 54px;
 }
 .learn_more_btn {
   background-color: transparent;
@@ -139,11 +144,12 @@ nav {
 }
 
 #partners {
-  margin: 120px 0 132px;
+  max-width: 1232px;
+  margin: 100px auto;
 }
 .partner_img {
-  width: 300px;
-  height: 62px;
+  width: 308px;
+  height: auto;
 }
 .partner_img.internshala {
   position: relative;
@@ -164,12 +170,12 @@ nav {
   color: #BBBBBB;
   display: flex;
   align-items: center;
-  column-gap: 16px;
+  column-gap: 12px;
   margin: 0 0 16px;
 }
 .section_title::before {
   content: "";
-  width: 70px;
+  width: 40px;
   height: 1px;
   display: inline-block;
   background-color: #BBBBBB;
@@ -213,7 +219,7 @@ nav {
 .strategy_info {
   width: 248px;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 24px;
   display: flex;
 }
 
@@ -259,6 +265,8 @@ nav {
   text-align: center;
 }
 .number_card .value {
+  position: relative;
+  z-index: -1;
   font-weight: 900;
   font-size: 48px;
   line-height: 65px;
@@ -270,17 +278,29 @@ nav {
   line-height: 22px;
 }
 
+#contact .contact-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 20px;
+  background-color: #333333;
+}
+
 .contact_section_title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 }
 .contact_heading {
-  font-weight: 900;
-  font-size: 52px;
-  line-height: 70px;
-  margin: 16px 0 24px;
-  max-width: 600px;
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
 }
 #email_btn {
   padding: 20px 54px;
@@ -328,6 +348,10 @@ nav {
     max-width: 100%;
     padding: 0 32px;
   }
+  #home {
+    max-width: 100%;
+    padding: 0 32px;
+  }
 }
 @media (max-width: 1189px) {
   #home .work_info {
@@ -359,7 +383,7 @@ nav {
     margin: 32px 0 80px;
   }
   #strategies {
-    margin: 188px 0 80px;
+    margin: 110px 0 80px;
   }
   .services_container {
     margin: 42px 0 80px;
@@ -373,23 +397,34 @@ nav {
   #home {
     margin: 200px 0 0;
   }
+  #home .greet_msg {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+  }
   #home .work_info {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 24px;
+    line-height: 32px;
     max-width: 318px;
+    font-weight: 500;
     margin-bottom: 20px;
+    margin-top: 12px;
+  }
+  .button_section{
+    margin-top: 40px;
   }
   .hire_me_btn, .learn_more_btn {
     padding: 12px 20px;
     font-size: 14px;
     line-height: 19px;
-    width: 139px;
+    width: 135px;
   }
   .hire_me_btn {
     margin: 0 12px 0 0;
   }
   #partners {
-    margin: 60px 0 292px;
+    margin: 44px 0 60px;
   }
   .partner_img.internshala {
     top: -8px;
@@ -397,6 +432,9 @@ nav {
   .card_header .company, .card_header .category {
     font-size: 14px;
     line-height: 19px;
+  }
+  #strategies {
+    margin: 80px 0 80px;
   }
   .achievement .value {
     font-size: 20px;
@@ -408,7 +446,7 @@ nav {
   }
   .number_container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     text-align: left;
     row-gap: 32px;
   }
@@ -418,8 +456,8 @@ nav {
     margin: 0 0 8px;
   }
   .partner_img {
-    width: 200px;
-    height: 42px
+    width: 174px;
+    height: auto;
   }
   .section_heading .heading, .contact_heading {
     font-size: 24px;
@@ -432,5 +470,8 @@ nav {
     font-size: 14px;
     line-height: 19px;
     padding: 12px 24px;
+  }
+  #contact .contact-container{
+    padding: 24px 16px;
   }
 }

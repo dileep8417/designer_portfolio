@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Satoshi';
-  src: url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Regular.otf'), url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Medium.otf'), url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Bold.otf');
-  font-weight: normal, medium, bold;
+  src: url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Regular.otf'), url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Medium.otf'), url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Bold.otf'), url('/designer_portfolio/assets/fonts/Satoshi/Satoshi-Black.otf');
+  font-weight: normal, medium, bold, 900;
 }
 
 *, html {

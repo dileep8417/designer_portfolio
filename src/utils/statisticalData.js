@@ -1,4 +1,4 @@
-const statisticalData = [
+export const statisticalData = [
     {
         title: 'Client so far',
         number: '12+'
@@ -21,4 +21,18 @@ const statisticalData = [
     }
 ];
 
-export default statisticalData;
+export const MetricsData = [
+    {
+        value: '52%',
+        title: 'Monthly Revenue Incressed',
+        
+    },
+    {
+        value: '1.5K',
+        title: 'New Users Sign Ups',
+    },
+    {
+        value: '1.25X',
+        title: 'Growth in User Traffic',
+    },
+];
