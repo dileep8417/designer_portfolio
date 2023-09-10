@@ -1,4 +1,4 @@
-const imgResourcePath = '/designer_portfolio/assets/images/projects/';
+const imgResourcePath = '/assets/images/projects/';
 
 const workContributions = [
     {

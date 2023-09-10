@@ -1,5 +1,5 @@
 export const companyLogos = {
-    basePath: '/designer_portfolio/assets/images/partners/',
+    basePath: '/assets/images/partners/',
     logos: [
         'company_3.png',
         'company_4.png',
@@ -11,7 +11,7 @@ export const companyLogos = {
 };
 
 export const HomeLogos = {
-    basePath: '/designer_portfolio/assets/images/partners/',
+    basePath: '/assets/images/partners/',
     logos: [
         'company_8.png',
         'company_3.png',

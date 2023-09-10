@@ -1,4 +1,4 @@
-const imgResourcePath = '/designer_portfolio/assets/images/offerings/';
+const imgResourcePath = '/assets/images/offerings/';
 
 const servicesProvide = [
     {
