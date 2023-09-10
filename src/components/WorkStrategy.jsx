@@ -4,7 +4,7 @@ import strategies from "../utils/strategiesFollowData";
 const WorkStrategy = () => {
     return (
         <div id="strategies">
-            <SectionHeading title="Key Areas" heading="My Strategy & Execution" />
+            <SectionHeading title="Process" heading="My Strategy & Execution" />
             <div className="strategies_container">
                 {strategies.map((strategy, index) => {
                     return (

@@ -3,7 +3,7 @@ const imgResourcePath = '/designer_portfolio/assets/images/projects/';
 const workContributions = [
     {
         company: 'Internshala',
-        projectLink: 'https://forms.gle/vYzNSc2LfrYTMyJk6',
+        projectLink: 'https://www.notion.so/bollojugopichand/How-Internshala-s-Custom-Plans-Ignited-a-30-Revenue-Surge-63d9000316194bed8e1bc3306a3e8191',
         contribution: {
             title: 'Personalized Payment Plans',
             info: 'Subscription That Fits Your Recruitment'
@@ -21,6 +21,39 @@ const workContributions = [
         workSampleImg: imgResourcePath + 'Internshala.png',
         category: 'Product Design',
         cardTheme: '#CCDCED'
+    },
+    {
+        company: 'Internshala',
+        projectLink: 'https://www.notion.so/bollojugopichand/The-Journey-to-Decrease-Internshala-Product-Email-Drop-Off-Rate-from-40-to-8-a7b617059f474c6388b223099766b6e2',
+        contribution: {
+            title: 'The Journey to Decrease Internshala Product',
+            info: ' Email Drop-Off Rate from 40% to 8%'
+        },
+        achievements: [
+            {
+                title: 'Surges in new signups',
+                value: '42%'
+            },
+            {
+                title: 'Click-rate improvements',
+                value: '20%'
+            }
+        ],
+        workSampleImg: imgResourcePath + 'Internshala_new.png',
+        category: 'Product Design',
+        cardTheme: '#EAFCFF'
+    },
+    {
+        company: 'Lalassa',
+        projectLink: 'https://www.notion.so/bollojugopichand/Bridging-the-Gap-Between-Pet-Care-and-Technology-through-Lalassa-ca7f36e994104763949fd0537f40179f',
+        contribution: {
+            title: 'Redefining user experience for the',
+            info: 'Indian petcare industry with Lalassa'
+        },
+        achievements: [],
+        workSampleImg: imgResourcePath + 'Lalassa.png',
+        category: 'Coming Soon...',
+        cardTheme: '#E5ECE9'
     },
     {
         company: 'Slog Digital',
@@ -72,24 +105,12 @@ const workContributions = [
         projectLink: 'https://www.behance.net/gallery/146811057/Snack-Ordering-App-for-Movie-Theatre-(casestudy)',
         contribution: {
             title: 'Never Miss a Moment',
-            info: 'Delicious Snacks at Your Fingertips'
+            info: 'Delicious Snacks at Your Seat'
         },
         achievements: [],
         workSampleImg: imgResourcePath + 'Snacky.png',
         category: 'Concept Design',
         cardTheme: '#F0F3BD'
-    },
-    {
-        company: 'Lalassa',
-        projectLink: '',
-        contribution: {
-            title: 'Redefining user experience for the',
-            info: 'Indian petcare industry with Lalassa'
-        },
-        achievements: [],
-        workSampleImg: imgResourcePath + 'Lalassa.png',
-        category: 'Coming Soon...',
-        cardTheme: '#E5ECE9'
     },
 ];
 

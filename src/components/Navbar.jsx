@@ -6,12 +6,6 @@ const Navbar = () => {
     const [showNavMenu, setShowNavMenu] = useState(false);
 
     const menuItems = ['Home', 'Work', 'About', 'Contact'];
-    const externalNav = [
-        {
-            name: 'Resume',
-            link: 'https://drive.google.com/uc?id=18-XhqjRxup3NQMsTX8sgy2n2fQRIe9uT&export=download',
-        }
-    ];
     return (
         <nav>
             <GiHamburgerMenu className="nav_btn" onClick={() => setShowNavMenu(prevState => !prevState)} />
@@ -22,9 +16,6 @@ const Navbar = () => {
                             {menu}
                         </Link>
                     );
-                })}
-                {externalNav.map((item, index) => {
-                    return <a key={index} className='nav_item' href={item.link} target='_blank' rel='noopenner'>{item.name}</a>
                 })}
             </div>
         </nav>

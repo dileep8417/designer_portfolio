@@ -12,9 +12,6 @@
     display: inherit;
     overflow: hidden;
   }
-  .project_card:nth-last-child(1) {
-    margin-right: auto;
-  }
   .project_card .card_header {
     display: flex;
     justify-content: space-between;
@@ -68,11 +65,6 @@
   }
   .project_card a img{
     width: 100%;
-  }
-
-  .project_card:nth-last-child(1) a img{
-    margin-left: 92px ;
-   
   }
 
   @media (max-width: 1255px) {

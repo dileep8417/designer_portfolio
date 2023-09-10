@@ -1,7 +1,7 @@
 const socialMediaLinks = [
     {
         name: 'Behance',
-        link: 'https://www.behance.net/gopichand7',
+        link: 'https://www.behance.net/gopichandbolloju',
     },
     {
         name: 'LinkedIn',
@@ -9,11 +9,11 @@ const socialMediaLinks = [
     },
     {
         name: 'Gmail',
-        link: 'mailto:gopic7273@gmail.com',
+        link: 'mailto:Gopichand.design@gmail.com',
     },
     {
         name: 'Instagram',
-        link: 'https://www.instagram.com/product.gopichand',
+        link: 'https://www.instagram.com/gopichand.design/',
     },
 ];
 

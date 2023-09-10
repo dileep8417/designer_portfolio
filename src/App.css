@@ -110,7 +110,7 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
 }
-.hire_me_btn, .learn_more_btn {
+.learn_more_btn {
   width: 265px;
   border-radius: 40px;
   font-family: 'Satoshi';
@@ -156,6 +156,11 @@ nav {
   top: -12px
 }
 
+.partner_img.auro {
+  width: 126px;
+  margin: 0 42px 0 62px;
+}
+
 #strategy {
   margin: 188px 0 0;
 }
@@ -180,7 +185,7 @@ nav {
   display: inline-block;
   background-color: #BBBBBB;
 }
-.section_heading .heading {
+.section_heading .heading, .custom_heading {
   font-weight: 900;
   font-size: 36px;
   line-height: 49px;
@@ -388,7 +393,7 @@ nav {
   .services_container {
     margin: 42px 0 80px;
   }
-  .section_heading .heading {
+  .section_heading .heading, .custom_heading {
     font-size: 32px;
     line-height: 43px;
   }
@@ -414,21 +419,22 @@ nav {
   .button_section{
     margin-top: 40px;
   }
-  .hire_me_btn, .learn_more_btn {
+  .learn_more_btn {
     padding: 12px 20px;
     font-size: 14px;
     line-height: 19px;
     width: 135px;
-  }
-  .hire_me_btn {
-    margin: 0 12px 0 0;
   }
   #partners {
     margin: 44px 0 60px;
   }
   .partner_img.internshala {
     top: -8px;
-}
+  }
+  .partner_img.auro {
+    width: 72px;
+    margin: 0 24px 0 38px;
+  }
   .card_header .company, .card_header .category {
     font-size: 14px;
     line-height: 19px;
@@ -473,5 +479,24 @@ nav {
   }
   #contact .contact-container{
     padding: 24px 16px;
+  }
+}
+
+.custom_heading {
+  text-align: center;
+  margin: 150px auto 52px;
+  font-size: 52px;
+}
+
+@media (max-width: 990px) {
+  .custom_heading {
+    font-size: 42px;
+    margin: 110px auto 48px;
+  }
+}
+@media (max-width: 767px) {
+  .custom_heading {
+    font-size: 40px;
+    margin: 80px auto 0;
   }
 }

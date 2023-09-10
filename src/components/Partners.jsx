@@ -6,7 +6,9 @@ const Partners = () => {
         <div id="partners">
             <div>
                 {HomeLogos.logos.map((logo, index) => {
-                    return <img key={index} className={`partner_img ${logo === 'company_3.png' ? 'internshala' : ''}`} src={HomeLogos.basePath + logo} alt="logo" />
+                    let className = logo === 'company_3.png' ? 'internshala' : '';
+                    className = logo === 'company_8.png' ? 'auro' : className;
+                    return <img key={index} className={`partner_img ${className}`} src={HomeLogos.basePath + logo} alt="logo" />
                 })}
             </div>
         </div>

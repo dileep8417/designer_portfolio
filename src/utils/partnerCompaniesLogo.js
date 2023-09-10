@@ -13,9 +13,9 @@ export const companyLogos = {
 export const HomeLogos = {
     basePath: '/designer_portfolio/assets/images/partners/',
     logos: [
+        'company_8.png',
         'company_3.png',
         'company_4.png',
         'company_2.png',
-        'company_1.png',
     ]
 };

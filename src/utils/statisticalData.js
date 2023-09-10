@@ -12,8 +12,8 @@ export const statisticalData = [
         number: '25+'
     },
     {
-        title: 'Design Views',
-        number: '5k+'
+        title: 'Countries Crossed',
+        number: '5+'
     },
     {
         title: 'Social Media Posts',
